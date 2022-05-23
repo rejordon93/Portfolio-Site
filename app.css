@@ -1,0 +1,189 @@
+.main-body {
+  background: 240, 233, 233;
+}
+
+nav {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.nav-item a,
+.main-name {
+  color: #ffffff;
+}
+
+.main-name:hover,
+.nav-link :hover {
+  color: rgb(251, 173, 6);
+}
+
+span {
+  color: rgb(251, 170, 6);
+}
+.underline {
+  text-decoration: underline;
+  text-decoration-color: rgb(251, 170, 6);
+}
+.main-name {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.button {
+  background-color: rgb(251, 170, 6); /* Green */
+  border: none;
+  color: black;
+  padding: 12px 50px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #3e8e41;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(2px);
+}
+
+section {
+  padding: 60px 0;
+}
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.email-body {
+  background: rgb(54, 162, 155);
+  text-align: center;
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+.card {
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+  transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12),
+    0.3s box-shadow,
+    0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.skills,
+.list-group-item {
+  border-radius: 15px 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.list-group-item.list-item-html5 {
+  background-color: blue;
+  color: white;
+}
+
+.list-group-item.list-item-flack {
+  background-color: cornflowerblue;
+}
+.list-group-item.list-item-css3 {
+  background-color: bisque;
+}
+.list-group-item.list-item-javascript {
+  background-color: rgb(255, 247, 1);
+}
+.list-group-item.list-item-github {
+  background-color: rgb(179, 98, 98);
+  color: white;
+}
+.list-group-item.list-item-git {
+  background-color: rgb(154, 154, 154);
+}
+.list-group-item.list-item-bootstrap {
+  background-color: rgb(125, 5, 230);
+  color: white;
+}
+.list-group-item.list-item-python {
+  background-color: rgb(4, 133, 99);
+}
+.list-group-item.list-item-opp {
+  background-color: rgb(255, 2, 2);
+  color: white;
+}
+.list-group-item.list-item-django {
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
+.list-group-item.list-item-jquery {
+  background: rgb(29, 202, 255);
+  color: rgb(0, 0, 0);
+}
+
+.skill {
+  color: rgb(0, 0, 0);
+}
+
+.listUl {
+  transition: all 0.2s ease-in-out;
+}
+
+.listUl :hover {
+  transform: scale(1.1);
+}
+
+.Ej :hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+}
+
+.contact a:hover {
+  transform: scale(1.5);
+}
+
+.rotate {
+  animation: rotation 5s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+@media (max-width: 1000px) {
+  .card:hover {
+    transform: scale(1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+  }
+}
+
+.main-body {
+  background: rgb(206, 205, 205);
+}
